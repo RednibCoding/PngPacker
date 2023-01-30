@@ -4,7 +4,7 @@ Gothic 3 The Beginning image extractor
 # How to
 - Clone or download this repo
 - Open the Gothic 3 The Beginning jar file with zip archiver program. For example `7Zip`
-- locate the file named "i" (contains all the images) and drag&drop this file onto the `g3tbToImg` executable
+- within the extracted folder locate the file named "i" in the extracted archive and drag&drop this file onto the `g3tbToImg` executable
 - an output folder should be created where the "i" file is located with all the extracted png files
 
 # Offtopic
