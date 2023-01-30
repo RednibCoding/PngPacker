@@ -1,18 +1,8 @@
-# g3tbToImg
-Gothic 3 The Beginning image extractor
+# PngPacker
+PngPacker is a tool that can pack png files into a single file and also unpack png's from any file that contains png's
 
 # How to
-- clone or download this repo
-- open the Gothic 3 The Beginning jar file with zip archiver program. For example `7Zip`
-- within the extracted folder locate the file named "i" (this file contains all the images) in the extracted archive and drag&drop this file onto the `g3tbToImg` executable
-- an output folder should be created where the "i" file is located with all the extracted png files
-
-# Offtopic
-## How to play the game?
-[Gothic 3 The Beginning](Gothic3-TheBeginning) is a Java Mobile Game (J2ME) so you need an emulator to play the game.
-
-I'd recommend [KEmulator](Gothic3-TheBeginning)
-
-The game and the emulator are in this repo located in the [Gothic 3 The Beginning folder](Gothic3-TheBeginning)
- 
-g3tbToImg is located in the [bin folder](bin)
+## Pack png files
+- drag and drop a folder containing png files onto `PngPacker`
+## Unpack png files
+- drag and drop a packed file onto `PngPacker` (this can be any file, because whenever `PngPacker` finds png signatures, it will try to unpack the png file)
