@@ -231,7 +231,7 @@ func writePngBuffers(buffers [][]byte, fileNames []string, path string, hasFilen
 			fullPath = filepath.Join(path+"_output", fileName)
 		} else {
 			fileName := "image_"
-			leadingZeros := len(strconv.Itoa(len(buffers)))
+			leadingZeros := len(strconv.Itoa(len(buffers))) + 1
 			format := "%0" + strconv.Itoa(leadingZeros) + "d"
 			fullPath = filepath.Join(path+"_output", fileName+fmt.Sprintf(format, i)+".png")
 			// fullPath = path + "_output\\image_" + strconv.Itoa(num) + ".png"
