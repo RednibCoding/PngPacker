@@ -2,8 +2,6 @@
 PngPacker is a tool that can pack png files into a single file and also unpack png's from any file that contains png's
 
 # What is PngPacker
-PngPacker by Michael Binder
-
 PngPacker is a tool that scans the given file for png signatures and if given, extracts those png files.
 It also can pack a given folder of png files into a pack file. While packing, it writes a PngPacker signature
 so it knows when unpacking, that it is a file packed by PngPacker. The signature is an arbitrary sequence of five bytes at the beginning see: getPngPackerSignature()
