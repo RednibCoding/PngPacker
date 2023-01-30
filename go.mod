@@ -1,3 +1,3 @@
-module g3tbToImg
+module pngpacker
 
 go 1.19
